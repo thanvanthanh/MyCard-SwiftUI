@@ -11,6 +11,9 @@
 		05FC6EA1286C40A2003FE40F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FC6EA0286C40A2003FE40F /* ContentView.swift */; };
 		05FC6EA3286C40A5003FE40F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FC6EA2286C40A5003FE40F /* Assets.xcassets */; };
 		05FC6EA6286C40A5003FE40F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FC6EA5286C40A5003FE40F /* Preview Assets.xcassets */; };
+		05FC6EAE286C4298003FE40F /* Satisfy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05FC6EAD286C4298003FE40F /* Satisfy-Regular.ttf */; };
+		05FC6EB1286C47B4003FE40F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FC6EB0286C47B4003FE40F /* InfoView.swift */; };
+		05FC6EB3286C5206003FE40F /* DiceeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FC6EB2286C5206003FE40F /* DiceeViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,10 @@
 		05FC6EA0286C40A2003FE40F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		05FC6EA2286C40A5003FE40F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05FC6EA5286C40A5003FE40F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05FC6EAD286C4298003FE40F /* Satisfy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Satisfy-Regular.ttf"; path = "../../../../Downloads/Satisfy/Satisfy-Regular.ttf"; sourceTree = "<group>"; };
+		05FC6EAF286C431A003FE40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		05FC6EB0286C47B4003FE40F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		05FC6EB2286C5206003FE40F /* DiceeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceeViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +58,12 @@
 		05FC6E9D286C40A2003FE40F /* MyCard-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				05FC6EAF286C431A003FE40F /* Info.plist */,
+				05FC6EAC286C427A003FE40F /* Font */,
 				05FC6E9E286C40A2003FE40F /* MyCard_SwiftUIApp.swift */,
 				05FC6EA0286C40A2003FE40F /* ContentView.swift */,
+				05FC6EB2286C5206003FE40F /* DiceeViews.swift */,
+				05FC6EB0286C47B4003FE40F /* InfoView.swift */,
 				05FC6EA2286C40A5003FE40F /* Assets.xcassets */,
 				05FC6EA4286C40A5003FE40F /* Preview Content */,
 			);
@@ -65,6 +76,14 @@
 				05FC6EA5286C40A5003FE40F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05FC6EAC286C427A003FE40F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				05FC6EAD286C4298003FE40F /* Satisfy-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05FC6EAE286C4298003FE40F /* Satisfy-Regular.ttf in Resources */,
 				05FC6EA6286C40A5003FE40F /* Preview Assets.xcassets in Resources */,
 				05FC6EA3286C40A5003FE40F /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				05FC6EA1286C40A2003FE40F /* ContentView.swift in Sources */,
+				05FC6EB1286C47B4003FE40F /* InfoView.swift in Sources */,
 				05FC6E9F286C40A2003FE40F /* MyCard_SwiftUIApp.swift in Sources */,
+				05FC6EB3286C5206003FE40F /* DiceeViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +293,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MyCard-SwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MyCard-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +322,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MyCard-SwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MyCard-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
